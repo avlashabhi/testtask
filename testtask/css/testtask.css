@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+
+}
+
+body {}
+
+.firstline {
+
+    margin-left: 20px;
+    margin-top: -1px;
+    padding: 0px 0px;
+}
+
+
+.firstcomp {
+    float: left;
+    margin-left: 71px;
+}
+
+.secondcomp {
+    float: left;
+    border-left: 2px solid #699ecc;
+    background-color: #e1ecf4;
+    padding: 6px 426px;
+    font-size: 7px;
+    /* margin-left: 0px; */
+    position: relative;
+    margin-top: 5px;
+}
+
+.exercise {
+    margin-left: -426px;
+    opacity: 0.65;
+    position: absolute;
+    top: -1px;
+}
+
+.firstlinespan {
+    margin-left: 37px;
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+
+.zeroline {
+    margin-left: 95px;
+    margin-right: 95px;
+    margin-top: 20px;
+}
+
+.tale {
+    float: left;
+    border-top: 1px solid black;
+}
+
+.zero1 {}
+
+.zero2 {
+    font-size: 10px;
+    opacity: 0.5;
+}
+
+.hr {
+    margin-left: 92px;
+    margin-right: 226px;
+    opacity: 0.4;
+    margin-top: 11px;
+    margin-bottom: -6px;
+}
+
+.secondline {
+    margin-top: 8px;
+}
+
+.secondfirstcomp {
+    float: left;
+    margin-left: 119px;
+}
+
+.secondsecondcomp {
+    float: left;
+    position: relative;
+    background-color: #e1ecf4;
+    padding: 10px 232px;
+    border-left: 2px solid #699ecc;
+    left: 2px;
+}
+
+.secondthirdcomp {
+    float: left;
+    position: absolute;
+    float: left;
+    position: relative;
+    background-color: #e1ecf4;
+    padding: 10px 194px;
+    border-left: 2px solid #699ecc;
+    left: 2px px;
+    top: -4px;
+
+}
+
+.traveltowork {
+    font-size: 7px;
+    position: absolute;
+    left: 1px;
+    top: 0px;
+    opacity: 0.8;
+}
+
+.planningday {
+    font-size: 7px;
+    position: absolute;
+    left: 1px;
+    top: 0px;
+    opacity: 0.6;
+}
+
+.secondlinespan {
+    margin-left: 7px;
+    opacity: 0.6;
+    font-size: 12px;
+    position: relative;
+    top: -8px;
+
+}
+
+
+.thirdline {
+    margin-top: 0px;
+}
+
+.thirdfirstcomp {
+    float: left;
+    margin-left: 119px;
+}
+
+.thirdsecondcomp {
+    float: left;
+    position: relative;
+    background-color: #e1ecf4;
+    padding: 6px 427px;
+    border-left: 2px solid #699ecc;
+    left: 2px;
+}
+
+.review {
+    font-size: 7px;
+    position: absolute;
+    left: 1px;
+    top: 0px;
+    opacity: 0.6;
+}
+
+.thirdlinespan {
+    margin-left: 7px;
+    opacity: 0.6;
+    font-size: 12px;
+    top: -3px;
+    position: relative;
+}
+
+
+.clear {
+    clear: both;
+}
+
+.hr1 {
+    margin-left: 92px;
+    margin-right: 226px;
+    opacity: 0.4;
+    margin-top: 0px;
+    margin-bottom: -2px;
+}
+
+.forthline {
+
+    margin-left: 19px;
+    margin-top: 12px;
+    padding: 0px 0px;
+}
+
+
+.forthfirstcomp {
+    float: left;
+    margin-left: 71px;
+}
+
+.forthsecondcomp {
+    float: left;
+    border-left: 2px solid #699ecc;
+    background-color: #e1ecf4;
+    padding: 6px 428px;
+    font-size: 7px;
+    /* margin-left: 0px; */
+    position: relative;
+    margin-top: 5px;
+}
+
+.forthexercise {
+    margin-left: -426px;
+    opacity: 0.65;
+    position: absolute;
+    top: -1px;
+}
+
+.forthlinespan {
+    margin-left: 40px;
+    opacity: 0.6;
+    font-size: 10px;
+    /* margin-top: 4px; */
+    position: relative;
+    top: -10px;
+}
+
+.hr2 {
+    margin-left: 92px;
+    margin-right: 226px;
+    opacity: 0.4;
+    margin-top: 4px;
+    margin-bottom: -2px;
+}
+
+.ten {
+    margin-left: 120px;
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+.ten1 {
+    margin-left: 124px;
+    opacity: 0.6;
+    font-size: 9px;
+    margin-top: 11px;
+}
+
+.firstlinespan1 {
+    margin-left: -22px;
+    opacity: 0.6;
+    font-size: 10px;
+    /* margin-top: 11px; */
+    position: relative;
+    top: 21px;
+}
+
+.firstlinespan11 {
+    margin-left: 37px;
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+.firstline {
+
+    margin-left: 20px;
+    margin-top: -1px;
+    padding: 0px 0px;
+}
+
+
+.fifthfirstcomp {
+    float: left;
+    margin-left: 79px;
+}
+
+.fifthsecondcomp {
+    float: left;
+    border-left: 2px solid #699ecc;
+    background-color: #e1ecf4;
+    padding: 33px 426px;
+    font-size: 7px;
+    /* margin-left: 0px; */
+    position: relative;
+    margin-top: 5px;
+    left: -6px;
+}
+
+.fifthexercise {
+    margin-left: -426px;
+    opacity: 0.65;
+    position: absolute;
+    top: -1px;
+}
+
+.fifthfirstlinespan {
+    margin-left: 37px;
+    opacity: 0.6;
+    font-size: 12px;
+    position: relative;
+    left: 1px;
+}
+
+.firstlinespan2 {
+    margin-left: -27px;
+    opacity: 0.6;
+    font-size: 12px;
+    /* margin-top: 11px; */
+
+    position: relative;
+    top: 45px;
+    left: -9px;
+}
+
+.firstlinespan123 {
+    margin-left: -22px;
+    opacity: 0.6;
+    font-size: 10px;
+    /* margin-top: 11px; */
+    position: relative;
+    top: 21px;
+    left: -3px;
+}
+
+.hr111 {
+    margin-left: 52px;
+    margin-right: 162px;
+    opacity: 0.4;
+    margin-top: 0px;
+    margin-bottom: -2px;
+    top: 47px;
+    position: relative;
+    /* width: 660px; */
+    left: -60px;
+}
+
+.ten12 {
+
+    margin-left: 124px;
+    opacity: 0.6;
+    font-size: 9px;
+    margin-top: 6px;
+
+
+
+}
+
+.secondthirdcompre {
+    float: left;
+    position: absolute;
+    float: left;
+    position: relative;
+    background-color: #e1ecf4;
+    padding: 10px 194px;
+    border-left: 2px solid #699ecc;
+    top: 2px;
+    left: 613px;
+
+}
+
+.traveltoworkre {
+    font-size: 7px;
+    position: absolute;
+    left: 1px;
+    top: 0px;
+    opacity: 0.8;
+}
+
+.sixthline {
+    margin-top: -10px;
+}
+
+.sixthsecondlinespan {
+
+    margin-left: 8px;
+    opacity: 0.6;
+    font-size: 10px;
+    position: relative;
+    top: 11px;
+    left: -5px;
+}
+
+.sixthsecondsecondcomp {
+    float: left;
+    position: relative;
+    background-color: #e1ecf4;
+    padding: 13px 232px;
+    border-left: 2px solid #699ecc;
+    left: 2px;
+}
+
+.sixthsecondthirdcompre {
+    float: left;
+    position: absolute;
+    float: left;
+    position: relative;
+    background-color: #e1ecf4;
+    padding: 10px 194px;
+    border-left: 2px solid #699ecc;
+    top: 1px;
+    left: -1px;
+}
+
+.hr234 {
+    margin-left: 89px;
+    margin-right: 226px;
+    opacity: 0.4;
+    margin-top: 24px;
+    margin-bottom: 3px;
+    top: -32px;
+    position: relative;
+}
+
+.ten234 {
+    margin-left: 119px;
+    opacity: 0.6;
+    font-size: 12px;
+    margin-top: -29px;
+    position: relative;
+    top: -5
+}
+
+.ten330 {
+    margin-left: 124px;
+    opacity: 0.6;
+    font-size: 9px;
+    margin-top: 6px
+}
