@@ -483,6 +483,8 @@ if (data[6].start === 360) {
     hr.style.marginLeft = "85px";
     hr.style.marginRight = "95px";
     hr.style.opacity = "0.3";
+    hr.style.position = "relative";
+    hr.style.top = "-5px";
 
     var div11 = document.createElement("div");
     // div.style.width = "15px";
@@ -537,7 +539,7 @@ if (data[6].start === 360) {
     div11.innerHTML = "<b>4:30</b>";
     div11.style.position = "absolute";
     div11.style.left = "10px";
-    div11.style.fontSize = "10px";
+    div11.style.fontSize = "8px";
     div11.style.opacity = "0.5";
     document.getElementById("main").appendChild(div11);
 
@@ -566,7 +568,7 @@ if (data[6].start === 360) {
     div11.innerHTML = "<b>5:30</b>";
     div11.style.position = "absolute";
     div11.style.left = "10px";
-    div11.style.fontSize = "10px";
+    div11.style.fontSize = "8px";
     div11.style.opacity = "0.5";
     document.getElementById("main").appendChild(div11);
 
