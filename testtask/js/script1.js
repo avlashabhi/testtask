@@ -60,6 +60,7 @@ if (data[0].start === 0) {
     hr.style.marginLeft = "85px";
     hr.style.marginRight = "95px";
     hr.style.opacity = "0.3";
+
     var div = document.createElement("div");
     // div.style.width = "15px";
     // div.style.height = "15px";
@@ -482,4 +483,107 @@ if (data[6].start === 360) {
     hr.style.marginLeft = "85px";
     hr.style.marginRight = "95px";
     hr.style.opacity = "0.3";
+
+    var div11 = document.createElement("div");
+    // div.style.width = "15px";
+    // div.style.height = "15px";
+    // div.style.background = "#699ecc";
+    div11.style.color = "black";
+    div11.style.marginLeft = "75px";
+    div11.style.marginTop = `${data[6].duration}` + "px";
+    div11.innerHTML = "<b>3:30</b>";
+    div11.style.position = "absolute";
+    div11.style.left = "10px";
+    div11.style.fontSize = "10px";
+    div11.style.opacity = "0.5";
+    document.getElementById("main").appendChild(div11);
+
+    var div11 = document.createElement("div");
+    // div.style.width = "15px";
+    // div.style.height = "15px";
+    // div.style.background = "#699ecc";
+    div11.style.color = "black";
+    div11.style.marginLeft = "75px";
+    div11.style.marginTop = `${data[6].duration}` + "px";
+    div11.innerHTML = "<b>3:30</b>";
+    div11.style.position = "absolute";
+    div11.style.left = "10px";
+    div11.style.fontSize = "10px";
+    div11.style.opacity = "0";
+    document.getElementById("main").appendChild(div11);
+
+    var div11 = document.createElement("div");
+    // div.style.width = "15px";
+    // div.style.height = "15px";
+    // div.style.background = "#699ecc";
+    div11.style.color = "black";
+    div11.style.marginLeft = "75px";
+    div11.style.marginTop = `${data[8].duration+data[6].duration}` + "px";
+    div11.innerHTML = "<b>4:00</b>";
+    div11.style.position = "absolute";
+    div11.style.left = "10px";
+    div11.style.fontSize = "10px";
+    div11.style.opacity = "0.5";
+    document.getElementById("main").appendChild(div11);
+
+
+    var div11 = document.createElement("div");
+    // div.style.width = "15px";
+    // div.style.height = "15px";
+    // div.style.background = "#699ecc";
+    div11.style.color = "black";
+    div11.style.marginLeft = "75px";
+    div11.style.marginTop = `${data[5].duration}` + "px";
+    div11.innerHTML = "<b>4:30</b>";
+    div11.style.position = "absolute";
+    div11.style.left = "10px";
+    div11.style.fontSize = "10px";
+    div11.style.opacity = "0.5";
+    document.getElementById("main").appendChild(div11);
+
+
+    var div11 = document.createElement("div");
+    // div.style.width = "15px";
+    // div.style.height = "15px";
+    // div.style.background = "#699ecc";
+    div11.style.color = "black";
+    div11.style.marginLeft = "75px";
+    div11.style.marginTop = `${data[5].duration+data[6].duration}` + "px";
+    div11.innerHTML = "<b>5:00</b>";
+    div11.style.position = "absolute";
+    div11.style.left = "10px";
+    div11.style.fontSize = "10px";
+    div11.style.opacity = "0.5";
+    document.getElementById("main").appendChild(div11);
+
+    var div11 = document.createElement("div");
+    // div.style.width = "15px";
+    // div.style.height = "15px";
+    // div.style.background = "#699ecc";
+    div11.style.color = "black";
+    div11.style.marginLeft = "75px";
+    div11.style.marginTop = `${data[5].duration+data[6].duration+data[6].duration}` + "px";
+    div11.innerHTML = "<b>5:30</b>";
+    div11.style.position = "absolute";
+    div11.style.left = "10px";
+    div11.style.fontSize = "10px";
+    div11.style.opacity = "0.5";
+    document.getElementById("main").appendChild(div11);
+
+    var div11 = document.createElement("div");
+    // div.style.width = "15px";
+    // div.style.height = "15px";
+    // div.style.background = "#699ecc";
+    div11.style.color = "black";
+    div11.style.marginLeft = "75px";
+    div11.style.marginTop = `${data[5].duration+data[6].duration+data[6].duration+data[6].duration}` + "px";
+    div11.innerHTML = "<b>6:00</b>";
+    div11.style.position = "absolute";
+    div11.style.left = "10px";
+    div11.style.fontSize = "10px";
+    div11.style.opacity = "0.5";
+    document.getElementById("main").appendChild(div11);
+
+
+
 }
