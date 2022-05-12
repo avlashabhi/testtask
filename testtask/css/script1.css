@@ -15,7 +15,7 @@
 }
 
 .timeline {
-    /* height: 600px; */
+    height: 2280px;
     margin-left: 95px;
     margin-right: 100px;
     border: 1px solid red;
@@ -23,4 +23,12 @@
 
 .democontainer {
     background-color: black;
+}
+
+.clear {
+    clear: both;
+}
+
+#time {
+    float: left;
 }

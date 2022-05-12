@@ -163,7 +163,7 @@ if (data[3].start === 60) {
 
 
     var div1 = document.createElement("div");
-    div1.style.width = "1000px";
+    div1.style.width = "1004px";
     div1.style.height = `${data[0].duration}` + "px";
     div1.style.background = "#e1ecf4";
     div1.style.color = "black";
@@ -196,7 +196,7 @@ if (data[4].start === 100) {
 
 
     var div7 = document.createElement("div");
-    div7.style.width = "1000px";
+    div7.style.width = "1004px";
     div7.style.height = `${data[4].duration}` + "px";
     div7.style.background = "#e1ecf4";
     div7.style.color = "black";
