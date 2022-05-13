@@ -14,12 +14,12 @@
     opacity: 0.5;
 }
 
-.timeline {
+/* .timeline {
     height: 2280px;
     margin-left: 95px;
     margin-right: 100px;
     border: 1px solid red;
-}
+} */
 
 .democontainer {
     background-color: black;
@@ -30,5 +30,15 @@
 }
 
 #time {
+    width: 10%;
     float: left;
+}
+
+
+.new {
+    /* position: absolute;
+    float: right; */
+    float: left;
+    width: 90%;
+    position: relative;
 }
