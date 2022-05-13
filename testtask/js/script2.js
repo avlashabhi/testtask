@@ -68,7 +68,11 @@ getTimeArray = () => {
         var mm = (tt % 60); // getting minutes of the hour in 0-55 format
         times[i] = ("" + (hh % 12)).slice(-2) + ':' + ("0" + mm).slice(-2); // pushing data in array in [00:00 - 12:00 AM/PM format]
         tt = tt + x;
-
+        if (times[i] == "0:00") {
+            times[i] = "12:00"
+        } else if (times[i] == "0:30") {
+            times[i] = "12:30";
+        }
     }
     return times;
 }
@@ -79,9 +83,13 @@ for (i = 0; i < timeArray.length; i++) {
 
     var div = document.createElement("div");
     document.getElementById("time").appendChild(div);
-
-
-    // div.style.float = "left";
+    // var hr = document.createElement("hr");
+    // document.getElementById("main").appendChild(hr);
+    // // hr.style.height = "58px";
+    // // // hr.style.marginLeft = "-10px";
+    // // // hr3.style.marginRight = "95px";
+    // // hr.style.opacity = "0.3";
+    // // div.style.float = "left";
     div.style.marginLeft = "95px";
     if (i % 2 === 0) {
         div.innerHTML = `${timeArray[i]}`;
@@ -215,10 +223,21 @@ var data = [{
     start: 400,
     duration: 30,
     title: "Push up branch"
+}, {
+    start: 400,
+    duration: 30,
+    title: "Push up branch"
 }];
 
 for (let i = 0; i < data.length; i++) {
     if ((i - 1) >= 0 && data[i].start < (data[i - 1].start + data[i - 1].duration)) {
+        for (let i = 0; i < data.length - 1; i++) {
+            if ((data[i].start >= 0) && data[i].start + data[i].duration < data[i + 1].start + data[i + 1].duration) {
+
+                div2.style.width = "500px";
+                div2.style.clear = "both";
+            }
+        }
         let height = (data[i].duration) + "px";
         let marginTop1 = (data[i].start) + "px";
         var div2 = document.createElement("div");
