@@ -237,16 +237,32 @@ for (let i = 0; i < data.length; i++) {
 
 
     if ((i - 1) >= 0 && data[i].start < (data[i - 1].start + data[i - 1].duration)) {
-        if (data[i - 1].duration > data[i].duration) {
+
+        for (let i = 0; i < data.length - 1; i++) {
+
+
+            if (data[i].start + data[i].duration < data[i + 1].start + data[i + 1].duration) {
+
+
+                div2.style.width = "498px";
+                div2.style.clear = "both";
+                div2.style.left = "500px";
+            } else {
+                div2.style.width = "498px";
+                div2.style.left = "0px";
+                div2.style.clear = "both";
+            }
+
+        }
+
+        if (data[i].duration > data[i - 1].duration) {
             div2.style.width = "498px";
-            // div2.style.clear = "both";
+            div2.style.clear = "both";
             div2.style.left = "0px";
         } else {
-
             div2.style.width = "498px";
             div2.style.left = "500px";
-            // div2.style.clear = "both";
-
+            div2.style.clear = "both";
         }
 
         let height = (data[i].duration) + "px";
@@ -265,18 +281,10 @@ for (let i = 0; i < data.length; i++) {
         div2.style.borderLeft = "2px solid #699ecc";
         div2.style.position = "absolute";
         div2.style.top = `${marginTop1}`;
-        // if (data[i].start + data[i].duration > data[i - 1].start + data[i - 1].duration) {
 
-        // div2.style.clear = "both";
-        div2.style.left = "500px";
-        // }
-        if (data[i - 1].duration == data[i].duration) {
-            div2.style.left = "0px";
 
-        }
         document.getElementById("main").appendChild(div2);
     } else {
-
         let height = (data[i].duration) + "px";
         let marginTop1 = (data[i].start) + "px";
         var div2 = document.createElement("div");
