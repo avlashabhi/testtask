@@ -69,7 +69,6 @@ getTimeArray = () => {
         var mm = (tt % 60); // getting minutes of the hour in 0-55 format
         times[i] = ("" + (hh % 12)).slice(-2) + ':' + ("0" + mm).slice(-2); // pushing data in array in [00:00 - 12:00 AM/PM format]
         tt = tt + x;
-
         if (times[i] == "0:00") {
             times[i] = "12:00"
         } else if (times[i] == "0:30") {
@@ -81,15 +80,8 @@ getTimeArray = () => {
 
 var timeArray = getTimeArray();
 for (i = 0; i < timeArray.length; i++) {
-
-
-
     var div = document.createElement("div");
     document.getElementById("time").appendChild(div);
-
-
-
-    // div.style.float = "left";
     div.style.marginLeft = "95px";
     if (i % 2 === 0) {
         div.innerHTML = `<b>${timeArray[i]}</b>`;
@@ -225,8 +217,7 @@ var data = [{
     duration: 30,
     title: "Push up branch"
 }];
-
-for (let i = 0; i < data.length; i++) {
+for (let i = 0; i < data.length + 2; i++) {
     var hr = document.createElement("hr");
     document.getElementById("main").appendChild(hr);
     hr.style.height = "58px";
@@ -234,8 +225,16 @@ for (let i = 0; i < data.length; i++) {
     hr.style.marginRight = "65px";
     hr.style.opacity = "0.3";
     hr.style.borderLeft = "transparent";
+}
 
-
+for (let i = 0; i < data.length; i++) {
+    // var hr = document.createElement("hr");
+    // document.getElementById("main").appendChild(hr);
+    // hr.style.height = "58px";
+    // hr.style.marginLeft = "-48px";
+    // hr.style.marginRight = "65px";
+    // hr.style.opacity = "0.3";
+    // hr.style.borderLeft = "transparent";
     if ((i - 1) >= 0 && data[i].start < (data[i - 1].start + data[i - 1].duration)) {
         if (data[i - 1].duration > data[i].duration) {
             div2.style.width = "498px";
@@ -248,7 +247,6 @@ for (let i = 0; i < data.length; i++) {
             // div2.style.clear = "both";
 
         }
-
         let height = (data[i].duration) + "px";
         let marginTop1 = (data[i].start) + "px";
         var div2 = document.createElement("div");
@@ -257,7 +255,6 @@ for (let i = 0; i < data.length; i++) {
         div2.style.background = "#e1ecf4";
         div2.style.color = "black";
         // div2.style.marginLeft = "95px";
-
         div2.innerHTML = `${data[i].title}`;
         div2.style.float = "left";
         div2.style.fontSize = "8px";
@@ -266,17 +263,14 @@ for (let i = 0; i < data.length; i++) {
         div2.style.position = "absolute";
         div2.style.top = `${marginTop1}`;
         // if (data[i].start + data[i].duration > data[i - 1].start + data[i - 1].duration) {
-
         // div2.style.clear = "both";
         div2.style.left = "500px";
         // }
         if (data[i - 1].duration == data[i].duration) {
             div2.style.left = "0px";
-
         }
         document.getElementById("main").appendChild(div2);
     } else {
-
         let height = (data[i].duration) + "px";
         let marginTop1 = (data[i].start) + "px";
         var div2 = document.createElement("div");
@@ -285,7 +279,6 @@ for (let i = 0; i < data.length; i++) {
         div2.style.background = "#e1ecf4";
         div2.style.color = "black";
         // div2.style.marginLeft = "95px";
-
         div2.innerHTML = `${data[i].title}`;
         div2.style.float = "left";
         div2.style.fontSize = "8px";
@@ -295,11 +288,7 @@ for (let i = 0; i < data.length; i++) {
         div2.style.position = "absolute";
         div2.style.top = `${marginTop1}`;
         // div2.style.left = "500px";
-
-
     }
-
-
 }
 // } else if ((i - 1) >= 0 && data[i].start < (data[i - 1].start + data[i - 1].duration && data[i].start) && data[i].start < (data[i + 1].start + data[i + 1].duration)) {
 //     let height = (data[i].duration) + "px";
